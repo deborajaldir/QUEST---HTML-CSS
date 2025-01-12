@@ -1,0 +1,89 @@
+html{
+    font-family: 'Poppins';
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    height: 100vh;
+    display: flex;
+}
+
+.logo img{
+    padding: 55px 0px 0px 70px;
+    max-width: 285px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.mockup{
+    padding: 80px 30px 0px 72px;
+}
+
+.info{
+    padding-right: 40px;
+    flex-direction: column;
+}
+
+.info h2{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.info p{
+    color: white;
+    font-size: 18px;
+    font-family: 'open sans';
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.register{
+    text-align: center;
+    height: 55px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 19px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 10px 5px 35px rgba(0, 0, 0, 0.445);
+    border-style: none;
+    margin-top: 20px;
+}
+
+.register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:white;
+    cursor: pointer;
+    transition: 0,3s;
+}
+
+.redes a {
+    color:white;
+    border: solid 1px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.redes {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    gap: 17px;
+    padding: 12px 80px 40px 0;
+}
+
+.redes a i{
+    font-size: 20px;
+    padding: 10px 2px;
+}
+.redes a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:white;
+    cursor: pointer;
+    transition: 0,3s;
+}

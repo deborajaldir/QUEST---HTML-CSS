@@ -1,0 +1,55 @@
+@media(max-width: 375px){
+   html{
+      height: 100vh;
+      background-image: url(../images/bg-mobile.svg);
+      background-color:  hsl(257, 40%, 49%);
+      background-repeat: no-repeat;
+   }
+
+   main{
+      display: flex;
+      flex-direction: column;
+ 
+   }
+
+   .logo img{
+      padding-top: 30px;
+      padding-left: 40px;
+      width: 160px;
+   }
+
+   .mockup{
+      padding: 55px 35px 0 35px;
+   }
+
+   .mockup img{
+      width: 100%;
+  }
+  
+   .info{
+      text-align: center;
+      padding: 0;
+   }
+
+   .info h2{
+      font-size: 25px;
+      padding: 50px 20px 0px 20px;
+   }
+
+   .info p{
+      font-size: 16px;
+      padding: 0 40px 10px 40px;
+      font-weight: 200;
+   }
+
+   .register{
+      width: 55%;
+      height: 40px;
+      font-size: 12px;
+   }
+
+   .redes{
+      padding: 80px 60px 40px 60px;
+      justify-content: center;
+   }
+}
